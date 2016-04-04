@@ -1,0 +1,33 @@
+#container {
+	color: white;
+	font-weight: bold;
+	background-image: url("http://www.nasa.gov/sites/default/files/thumbnails/image/iss044e045542.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#container h1 {
+	color: #cc0000;
+	text-decoration: underline;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+#container h2 {
+	color: #cc0000;
+	text-decoration: underline;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+}
+#container ol{
+	list-style: lower-latin;
+}
+#container ul{
+	list-style: circle; 
+}
+table {
+	border: 1px solid white;
+}
+a:visited {
+	color:red;
+}
+a:hover {
+	color:white;
+}

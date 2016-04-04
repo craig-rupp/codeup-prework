@@ -1,0 +1,39 @@
+.box {
+	height: 50px;
+	width: 150px;
+	border: 1.5px solid black;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+p {
+	margin-top: 3.5px;
+	margin-left: 3.5px;
+	font-size: .9em;
+}
+#red-box{
+	background-color: #bf1303;
+}
+#orange-box{
+	background-color: #e8a517;
+	margin-left: 30px;
+}
+#yellow-box{
+	background-color: #fcfc05;
+	margin-left: 60px;
+}
+#yellow-box p{
+	color: black;
+}
+#green-box{
+	background-color: #437f1a;
+	margin-left: 90px;
+}
+#blue-box{
+	background-color: #174be8;
+	margin-left: 120px;
+}
+#purple-box{
+	background-color: #ec8af7;
+	margin-left: 150px;
+}

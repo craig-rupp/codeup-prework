@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<h2>Form Test</h2>
+		<form method="POST" action="http://requestb.in/108nwig1">
+			<div>
+				<label for="transmission">Select your transmission type: 
+				</label>
+				<select id="transmission" name="transmission">
+					<option>Automatic</option>
+					<option selected>Manual</option>
+				</select>
+			</div>
+
+			<label for="os">What operating systems have you used? </label>
+			<select id="os" name="os[]" multiple>
+				<option value="linus">Linux</option>
+				<option value="osx">OS X</option>
+				<option value="windows">Windows</option>
+			</select>
+
+			<button type="submit">Submit</button>
+		</form>	
+		<h2>Selected Testing</h2>
+		<form method="POST" action="http://requestb.in/108nwig1">
+			<div>
+				<label for="degree">Do you have a college degree?</label>
+				<select id="degree" name="degree">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</select>
+				<button type="submit">Submit</button>	
+			</div>
+		<h2>NCAA Tourney Trivia</h2>
+			<div>
+				<label for="final">hich men's program did not make the Final Four?</label>
+				<select id="final" name="final" multiple>
+					<option value="UNC">UNC</option>
+					<option value="Virginia">Virginia</option>
+					<option value="OU">OU</option>
+				</select>
+				<button type="submit">Submit</button>	
+			</div>	
+		</form>	
+	</body>
+</html>		

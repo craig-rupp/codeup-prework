@@ -1,0 +1,50 @@
+h1 {
+	margin-bottom: 1px;
+}
+.box {
+	height: 55px;
+	width: 55px;
+	border: 1px solid black;
+	font-weight: bold;
+	color: white;
+	font-size: .75em;
+	margin-top: 50px;
+	margin-right: 50px;
+	float: left;
+	position: relative;
+}
+p {
+	margin-top: 4px !important;
+	margin-left: 3px !important;
+}
+.box>img {
+	position: absolute;
+	top: -40px;
+	right: -40px;
+
+}
+.box:nth-child(3), .box:nth-child(5){
+	clear: left;
+}
+#red-box{
+	background-color: #bf1303;
+}
+#orange-box{
+	background-color: #e8a517;
+}
+#yellow-box{
+	background-color: #fcfc05;
+}
+#yellow-box p{
+	color: black;
+}
+#green-box{
+	background-color: #437f1a;
+
+}
+#blue-box{
+	background-color: #174be8;
+}
+#purple-box{
+	background-color: #ec8af7;
+}
